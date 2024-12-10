@@ -1,0 +1,8 @@
+version: "3"
+services:
+  cron_scheduler:
+    build: .
+    container_name: cron_scheduler
+    logging:
+      options:
+        max-size: "50m"
